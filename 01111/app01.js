@@ -34,7 +34,11 @@ if (typeof Human === "object") {
 else if (typeof Human === "string") {
     console.log("원시 타입입니다.");
 }
-var fruits = ['apple', 'pineapple', 'strawberry'];
+var fruits = ["apple", "pineapple", "strawberry"];
+// forEach 두가지 방법
 fruits.forEach(function (a) {
     console.log(a);
+});
+fruits.forEach(function (i) {
+    console.log(i);
 });

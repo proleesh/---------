@@ -35,7 +35,11 @@ if (typeof Human === "object") {
 } else if (typeof Human === "string") {
   console.log("원시 타입입니다.");
 }
-const fruits = ['apple', 'pineapple', 'strawberry']
-fruits.forEach((a:any)=>{
-    console.log(a)
-})
+const fruits = ["apple", "pineapple", "strawberry"];
+// forEach 두가지 방법
+fruits.forEach((a: string) => {
+  console.log(a);
+});
+fruits.forEach(function (i) {
+  console.log(i);
+});
