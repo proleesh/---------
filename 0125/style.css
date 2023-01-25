@@ -1,0 +1,29 @@
+html {
+  background-color: antiquewhite;
+}
+html,
+body,
+main,
+div,
+p,
+span {
+  padding: 15px;
+  margin: 15px;
+  text-align: center;
+  font-weight: 700;
+}
+body {
+  background-color: aqua;
+}
+main {
+  background-color: khaki;
+}
+div {
+  background-color: blueviolet;
+}
+p {
+  background-color: violet;
+}
+span {
+  background-color: cadetblue;
+}
