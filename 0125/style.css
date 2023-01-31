@@ -25,5 +25,6 @@ p {
   background-color: violet;
 }
 span {
+  display: block;
   background-color: cadetblue;
 }
